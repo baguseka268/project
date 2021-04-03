@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Acme';
+    src: url('Acme-Regular.ttf');
+  }
+*{
+    list-style: none;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    position: relative;
+    background-color: dimgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    top: 0;
+    height: 67px;
+}
+.navbar nav{
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+}
+li{
+    margin-left: 10px;
+}
+.navbar a{
+    transition:all  0.3s ease-in;
+    justify-content: center;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+.navbar-container{
+    margin-right: 10px;
+}
+
+.image-container{
+    justify-content: center;
+    width: 33%;
+}
+.image-container img{
+    height: 37px;
+    width: 40px;
+    padding:10px;
+}
+.navbar a:hover {
+    color: aqua;
+}
+.bg-image{
+    background-image: url("background.jpg");
+    background-size: cover;  
+    background-position: right top;
+    background-attachment: fixed;
+    height:calc(100vh - 67px);
+    width:100%;
+}
+.konten {
+    position: absolute;
+    }
+h1{
+    letter-spacing: 0.5px;
+    font-family: 'Acme';
+    text-align: center;
+    width: 33%;
+}
+button{
+    padding: 10px;
+}
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/baguseka268/project.git
+git push -u origin main
