@@ -124,11 +124,37 @@ li{
     width: 100%;
 }
 .deskripsi-konten{
+    font-family: 'PoppinsM';
+    text-shadow: 3px 3px 9px #000000;
+    font-size: 23px;
+    color: blanchedalmond;
     display: flex; 
     align-items: center;
-    justify-content: center; 
+    justify-content: space-around; 
     height: 100%; 
     width: 100%;
+    flex-direction: column;
+}
+.deskripsi-konten a {
+    z-index: 2;
+    padding: 15px 80px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(41, 43, 114);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+a:hover {
+    background-color: rgb(41, 43, 114);
+}
+a:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .logo{
