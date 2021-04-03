@@ -6,6 +6,14 @@
     font-family: 'Sofia';
     src: url('./font/Sofia-Regular.ttf');
   }
+  @font-face {
+    font-family: 'PoppinsR';
+    src: url('./font/Poppins-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'PoppinsM';
+    src: url('./font/Poppins-Medium.ttf ');
+  }
 *{
     list-style: none;
     margin:0;
@@ -103,6 +111,24 @@ li{
     display: flex;
     justify-content: center;
     width: 50%;
+}
+
+.deskripsi-bg{
+    width: 300px;
+    height: 500px;
+    position: relative;
+}
+.deskripsi-bg img{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.deskripsi-konten{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 100%; 
+    width: 100%;
 }
 
 .logo{
