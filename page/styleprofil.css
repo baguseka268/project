@@ -1,20 +1,24 @@
 @font-face {
     font-family: 'Acme';
-    src: url('./font/Acme-Regular.ttf');
+    src: url('../font/Acme-Regular.ttf');
   }
   @font-face {
     font-family: 'Sofia';
-    src: url('./font/Sofia-Regular.ttf');
+    src: url('../font/Sofia-Regular.ttf');
   }
   @font-face {
     font-family: 'PoppinsR';
-    src: url('./font/Poppins-Regular.ttf');
+    src: url('../font/Poppins-Regular.ttf');
   }
   @font-face {
     font-family: 'PoppinsM';
-    src: url('./font/Poppins-Medium.ttf ');
+    src: url('../font/Poppins-Medium.ttf ');
   }
   
+body{
+  overflow-x: hidden;
+}
+
 *{
   list-style: none;
   margin:0;
@@ -89,11 +93,30 @@ li{
   color: aqua;
 }
 
-.bg-image{
+.bg-image1{
   background-image: url("../image/bg\ portofolio.jpg");
   background-size: cover;  
   background-position: right top;
-  background-attachment: fixed;
+  position: absolute;
   height:calc(100vh - 190px);
   width:100%;
+}
+.bg-image2{
+  display: flex;
+  justify-content: flex-end;
+  background-image: url("../image/bg\ portofolio2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  width: 1000px;
+  height: 610px;
+  left: -50%;
+  background-position: bottom;
+}
+.bg-image2-container{
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 50%;
 }
