@@ -103,14 +103,14 @@ li{
 }
 .bg-image2{
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   background-image: url("../image/bg\ portofolio2.png");
   background-size: 100%;
   background-repeat: no-repeat;
   position: relative;
   z-index: 2;
   width: 1000px;
-  height: 610px;
+  height: 562px;
   left: -50%;
   background-position: bottom;
 }
@@ -119,4 +119,5 @@ li{
   justify-content: flex-end;
   position: absolute;
   left: 50%;
+  margin-top: 50px;
 }
