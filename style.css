@@ -136,6 +136,7 @@ li{
     flex-direction: column;
 }
 .deskripsi-konten a {
+    text-decoration: none;
     z-index: 2;
     padding: 15px 80px;
     font-size: 15px;

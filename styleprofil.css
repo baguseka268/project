@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Acme';
+    src: url('./font/Acme-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Sofia';
+    src: url('./font/Sofia-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'PoppinsR';
+    src: url('./font/Poppins-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'PoppinsM';
+    src: url('./font/Poppins-Medium.ttf ');
+  }
